@@ -1,0 +1,61 @@
+{
+"about": {
+"browser": "chrome",
+"version": "19.2.5"
+},
+"showall": true,
+"lang": "en",
+"dark": "system",
+"favicon": "",
+"tabtitle": "",
+"greeting": "Surajit",
+"pagegap": 2,
+"pagewidth": 1200,
+"time": true,
+"main": true,
+"dateformat": "eu",
+"background_blur": 9,
+"background_bright": 0.8,
+"background_type": "unsplash",
+"quicklinks": true,
+"textShadow": 0.2,
+"announcements": "off",
+"review": 1,
+"css": "",
+"hide": {
+"settingsicon": true,
+"weatherdesc": false,
+"weathericon": true
+},
+"linkstyle": "large",
+"linknewtab": false,
+"linksrow": 6,
+"linksolfjlo": {
+"_id": "linksolfjlo",
+"order": 1,
+"parent": 0,
+"title": "Testbook",
+"url": "https://testbook.com"
+},
+"linksighipn": {
+"_id": "linksighipn",
+"order": 0,
+"parent": 0,
+"title": "Youtube",
+"url": "https://youtube.com"
+},
+"linksfmbmme": {
+"_id": "linksfmbmme",
+"order": 2,
+"parent": 0,
+"title": "Photos",
+"url": "https://photos.google.com"
+},
+"linksenoifm": {
+"_id": "linksenoifm",
+"order": 3,
+"parent": 0,
+"title": "Music",
+"url": "https://music.youtube.com"
+},
+"linksbdpcrc": {
