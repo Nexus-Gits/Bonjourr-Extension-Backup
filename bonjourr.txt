@@ -1,61 +1,207 @@
 {
-"about": {
-"browser": "chrome",
-"version": "19.2.5"
-},
-"showall": true,
-"lang": "en",
-"dark": "system",
-"favicon": "",
-"tabtitle": "",
-"greeting": "Surajit",
-"pagegap": 2,
-"pagewidth": 1200,
-"time": true,
-"main": true,
-"dateformat": "eu",
-"background_blur": 9,
-"background_bright": 0.8,
-"background_type": "unsplash",
-"quicklinks": true,
-"textShadow": 0.2,
-"announcements": "off",
-"review": 1,
-"css": "",
-"hide": {
-"settingsicon": true,
-"weatherdesc": false,
-"weathericon": true
-},
-"linkstyle": "large",
-"linknewtab": false,
-"linksrow": 6,
-"linksolfjlo": {
-"_id": "linksolfjlo",
-"order": 1,
-"parent": 0,
-"title": "Testbook",
-"url": "https://testbook.com"
-},
-"linksighipn": {
-"_id": "linksighipn",
-"order": 0,
-"parent": 0,
-"title": "Youtube",
-"url": "https://youtube.com"
-},
-"linksfmbmme": {
-"_id": "linksfmbmme",
-"order": 2,
-"parent": 0,
-"title": "Photos",
-"url": "https://photos.google.com"
-},
-"linksenoifm": {
-"_id": "linksenoifm",
-"order": 3,
-"parent": 0,
-"title": "Music",
-"url": "https://music.youtube.com"
-},
-"linksbdpcrc": {
+  "about": {
+    "browser": "chrome",
+    "version": "19.2.5"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "Surajit",
+  "pagegap": 2,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "dateformat": "eu",
+  "background_blur": 15,
+  "background_bright": 0.8,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "textShadow": 0.2,
+  "announcements": "off",
+  "review": 1,
+  "css": "",
+  "hide": {
+    "settingsicon": true,
+    "weatherdesc": false,
+    "weathericon": true
+  },
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": 6,
+  "linksojddjb": {
+    "_id": "linksojddjb",
+    "order": 3,
+    "parent": 0,
+    "title": "Testbook",
+    "url": "https://testbook.com"
+  },
+  "linkskkqkhl": {
+    "_id": "linkskkqkhl",
+    "order": 2,
+    "parent": 0,
+    "title": "Music",
+    "url": "https://music.youtube.com"
+  },
+  "linksegqcrd": {
+    "_id": "linksegqcrd",
+    "order": 0,
+    "parent": 0,
+    "title": "Youtube",
+    "url": "https://youtube.com"
+  },
+  "linksdkdrnl": {
+    "_id": "linksdkdrnl",
+    "order": 1,
+    "parent": 0,
+    "title": "Photos",
+    "url": "https://photos.google.com"
+  },
+  "linksanrpeg": {
+    "_id": "linksanrpeg",
+    "order": 4,
+    "parent": 0,
+    "title": "Ai",
+    "url": "https://duckduckgo.com/chat"
+  },
+  "linktabs": {
+    "active": false,
+    "selected": 0,
+    "titles": [
+      ""
+    ]
+  },
+  "clock": {
+    "ampm": false,
+    "analog": false,
+    "face": "none",
+    "seconds": false,
+    "size": 1,
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "tabs",
+    "lastCollec": "night",
+    "time": 1722615301641
+  },
+  "weather": {
+    "ccode": "IN",
+    "city": {
+      "timezone": 19800,
+      "coord": {
+        "lat": 23.6771,
+        "lon": 86.95
+      },
+      "country": "IN",
+      "id": 1269096,
+      "name": "Jaykaynagar",
+      "population": 0,
+      "sunrise": 1722469314,
+      "sunset": 1722516901
+    },
+    "forecast": "never",
+    "geolocation": "off",
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "align": "left",
+    "on": true,
+    "opacity": 0.1,
+    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] Youtube : https://www.youtube.com/watch?v=KCMHPSxa2GY\n\n",
+    "width": 40
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.1,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "Search",
+    "request": "",
+    "suggestions": false
+  },
+  "quotes": {
+    "on": true,
+    "author": true,
+    "frequency": "tabs",
+    "last": 1722615301634,
+    "type": "inspirobot"
+  },
+  "font": {
+    "size": "14",
+    "family": "",
+    "system": true,
+    "weight": "300",
+    "weightlist": []
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "notes"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}
