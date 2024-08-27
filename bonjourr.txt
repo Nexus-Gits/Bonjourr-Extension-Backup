@@ -9,12 +9,12 @@
   "favicon": "",
   "tabtitle": "",
   "greeting": "Surajit",
-  "pagegap": 2,
-  "pagewidth": 1600,
+  "pagegap": 4.5,
+  "pagewidth": 1200,
   "time": true,
   "main": true,
   "dateformat": "eu",
-  "background_blur": 15,
+  "background_blur": 3,
   "background_bright": 0.8,
   "background_type": "unsplash",
   "quicklinks": true,
@@ -23,19 +23,28 @@
   "review": 1,
   "css": "",
   "hide": {
+    "date": false,
     "settingsicon": true,
     "weatherdesc": false,
-    "weathericon": true
+    "weathericon": true,
+    "clock": false
   },
   "linkstyle": "large",
   "linknewtab": false,
-  "linksrow": 6,
+  "linksrow": "6",
   "linksojddjb": {
     "_id": "linksojddjb",
     "order": 3,
     "parent": 0,
     "title": "Testbook",
     "url": "https://testbook.com"
+  },
+  "linksmmcora": {
+    "_id": "linksmmcora",
+    "order": 5,
+    "parent": 0,
+    "title": "Omnivore",
+    "url": "https://omnivore.app"
   },
   "linkskkqkhl": {
     "_id": "linkskkqkhl",
@@ -84,25 +93,13 @@
   "unsplash": {
     "collection": "",
     "every": "tabs",
-    "lastCollec": "night",
-    "time": 1722615301641
+    "lastCollec": "day",
+    "time": 1724746147319
   },
   "weather": {
     "ccode": "IN",
-    "city": {
-      "timezone": 19800,
-      "coord": {
-        "lat": 23.6771,
-        "lon": 86.95
-      },
-      "country": "IN",
-      "id": 1269096,
-      "name": "Jaykaynagar",
-      "population": 0,
-      "sunrise": 1722469314,
-      "sunset": 1722516901
-    },
-    "forecast": "never",
+    "city": "Siliguri",
+    "forecast": "always",
     "geolocation": "off",
     "moreinfo": "none",
     "provider": "",
@@ -110,15 +107,16 @@
     "unit": "metric"
   },
   "notes": {
+    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] 120 Grammar Rules  : https://www.youtube.com/watch?v=OBGS4We9Ybw\n\n",
     "align": "left",
     "on": true,
-    "opacity": 0.1,
-    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] Youtube : https://www.youtube.com/watch?v=KCMHPSxa2GY\n\n",
-    "width": 40
+    "opacity": 0.5,
+    "width": 41
   },
   "searchbar": {
     "on": true,
-    "opacity": 0.1,
+    "opacity": 0.55,
+    "width": 46,
     "engine": "google",
     "newtab": false,
     "placeholder": "Search",
@@ -127,16 +125,16 @@
   },
   "quotes": {
     "on": true,
-    "author": true,
+    "author": false,
     "frequency": "tabs",
-    "last": 1722615301634,
-    "type": "inspirobot"
+    "last": 1724746147315,
+    "type": "classic"
   },
   "font": {
-    "size": "14",
+    "size": "13.85",
     "family": "",
     "system": true,
-    "weight": "300",
+    "weight": "700",
     "weightlist": []
   },
   "move": {
@@ -144,19 +142,40 @@
       "double": {
         "grid": [
           [
-            "time",
-            "."
+            "main",
+            "time"
           ],
           [
-            "main",
-            "."
+            "searchbar",
+            "searchbar"
+          ],
+          [
+            "notes",
+            "notes"
           ],
           [
             "quicklinks",
-            "."
+            "quicklinks"
+          ],
+          [
+            "quotes",
+            "quotes"
           ]
         ],
-        "items": {}
+        "items": {
+          "quicklinks": {
+            "box": "",
+            "text": ""
+          },
+          "searchbar": {
+            "box": "",
+            "text": ""
+          },
+          "quotes": {
+            "box": "end center",
+            "text": ""
+          }
+        }
       },
       "single": {
         "grid": [
@@ -179,7 +198,16 @@
             "quotes"
           ]
         ],
-        "items": {}
+        "items": {
+          "time": {
+            "box": "",
+            "text": ""
+          },
+          "main": {
+            "box": "",
+            "text": ""
+          }
+        }
       },
       "triple": {
         "grid": [
@@ -202,6 +230,6 @@
         "items": {}
       }
     },
-    "selection": "single"
+    "selection": "double"
   }
 }
