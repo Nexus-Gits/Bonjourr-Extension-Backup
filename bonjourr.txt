@@ -9,7 +9,7 @@
   "favicon": "",
   "tabtitle": "",
   "greeting": "Surajit",
-  "pagegap": 4.5,
+  "pagegap": 3.5,
   "pagewidth": 1200,
   "time": true,
   "main": true,
@@ -94,7 +94,7 @@
     "collection": "",
     "every": "tabs",
     "lastCollec": "day",
-    "time": 1724746147319
+    "time": 1724814871012
   },
   "weather": {
     "ccode": "IN",
@@ -107,7 +107,7 @@
     "unit": "metric"
   },
   "notes": {
-    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] 120 Grammar Rules  : https://www.youtube.com/watch?v=OBGS4We9Ybw\n\n",
+    "text": "## To-Do!\n\n[ ] Full Mock\n[ ] Sectional Mock\n[ ] 120 Grammar Rules  : https://www.youtube.com/watch?v=OBGS4We9Ybw\n\n\n\n",
     "align": "left",
     "on": true,
     "opacity": 0.5,
@@ -127,15 +127,18 @@
     "on": true,
     "author": false,
     "frequency": "tabs",
-    "last": 1724746147315,
+    "last": 1724814871009,
     "type": "classic"
   },
   "font": {
-    "size": "13.85",
-    "family": "",
-    "system": true,
+    "size": "12.45",
+    "family": "Space Mono",
+    "system": false,
     "weight": "700",
-    "weightlist": []
+    "weightlist": [
+      "400",
+      "700"
+    ]
   },
   "move": {
     "layouts": {
